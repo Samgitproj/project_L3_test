@@ -1,0 +1,60 @@
+{
+  "project_name": "L3_test",
+  "profile": "pyqt",
+  "project_path": "C:/OneDrive/Vioprint/OneDrive - Vioprint/software projecten\\L3_test",
+  "venv_root": "C:\\virt omgeving",
+  "venv_path": "C:\\virt omgeving\\L3_test\\venv",
+  "vscode_bin": "",
+  "github_repo": "https://github.com/Samgitproj/project_L3_test",
+  "scripts": [
+    {
+      "path": "main.py",
+      "github_url": "https://github.com/Samgitproj/project_L3_test/blob/main/main.py"
+    },
+    {
+      "path": "ui2py_gui.py",
+      "github_url": "https://github.com/Samgitproj/project_L3_test/blob/main/ui2py_gui.py"
+    },
+    {
+      "path": "core/__init__.py",
+      "github_url": "https://github.com/Samgitproj/project_L3_test/blob/main/core/__init__.py"
+    },
+    {
+      "path": "documents/__init__.py",
+      "github_url": "https://github.com/Samgitproj/project_L3_test/blob/main/documents/__init__.py"
+    },
+    {
+      "path": "gui/MainWindow.ui",
+      "github_url": "https://github.com/Samgitproj/project_L3_test/blob/main/gui/MainWindow.ui"
+    },
+    {
+      "path": "gui/__init__.py",
+      "github_url": "https://github.com/Samgitproj/project_L3_test/blob/main/gui/__init__.py"
+    },
+    {
+      "path": "resources/__init__.py",
+      "github_url": "https://github.com/Samgitproj/project_L3_test/blob/main/resources/__init__.py"
+    }
+  ],
+  "ui_dir": "gui",
+  "resources_dir": "resources",
+  "log_file": "log.txt",
+  "rules": {
+    "auto_changelog": {
+      "enabled": true,
+      "apply_to_new_scripts": true
+    },
+    "log_format": "default",
+    "backup_on_edit": true
+  },
+  "ai_rules": [
+    {
+      "id": "add_logging",
+      "description": "Voeg logging.debug toe aan elke methode",
+      "active": true,
+      "trigger": "btnAddLoggingAI",
+      "prompt": "Voeg logging.debug() toe aan het begin van elke functie om aan te geven welke methode wordt aangeroepen. Gebruik geen andere loggingniveaus tenzij nodig."
+    }
+  ],
+  "gpt_status_url": "https://github.com/Samgitproj/project_L3_test/raw/main/.projassist.json"
+}

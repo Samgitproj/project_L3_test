@@ -1,0 +1,8 @@
+{
+  "python.defaultInterpreterPath": "C:\\virt omgeving\\L3_test\\venv\\Scripts\\python.exe",
+  "diffEditor.renderSideBySide": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.experimental.showMoves": true,
+  "files.encoding": "utf8",
+  "files.eol": "\n"
+}

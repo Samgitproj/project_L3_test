@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowTitle"><string>Nieuwe PyQt App</string></property>
+  <property name="geometry"><rect><x>0</x><y>0</y><width>1000</width><height>700</height></rect></property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">
+QGroupBox {
+  font-weight: bold;
+  border: 1px solid #444;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+QGroupBox::title { left: 10px; padding: 0 4px; }
+QPushButton { padding: 6px 10px; }
+QLineEdit, QTextEdit { padding: 4px; }
+    </string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="lblIntro">
+      <property name="text"><string>Welkom! Bewerk deze UI in Qt Designer en run daarna UI→PY (UI2PY Tool).</string></property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnStart">
+      <property name="text"><string>Start</string></property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/><connections/>
+</ui>
